@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>The Blerd Club</title>
+</head>
+<body>
+
+    <!--- Side Nav Bar -->
+
+    <nav class="nav-bar">
+        <span class="open-slide">
+            <a href="#" onclick="openSlideMenu()">
+                <!--creating the hamburger symbol -->
+                <svg width="30" height="30"> <!--drawing each line with path -->
+                   <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/> 
+                   <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+                   <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+                </svg>
+            </a>
+        </span>
+
+        <ul class="navbar-nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+    </nav>
+    <div id="side-menu" class="side-nav">
+        <!--gives the close 'x' mark -->
+        <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a> 
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#events">Events</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <div id="main">
+
+        <!-- Home -->
+
+        <section id="home">
+            <div class="home-container">
+                <div class="text-cover">
+                   <img src="Blerd Club.png">
+                    <p>Blerd Club is a positive, diverse and incluvsive space for minority nerds and geeks. Share and connect with others who share your interests; whether you are a gamer, into comic books, or tech. You will find your tribe. </p> 
+                </div>
+            </div>
+              
+        </section>
+
+
+        <!-- About Us -->
+
+        <section id="about">
+            <div class="inner-container">
+             <h2>About Us</h2>
+                <p class="text">
+                    Blerd Club is a positive, diverse and incluvsive space for minority nerds and geeks. Share and connect with others who share your interests; whether you are a gamer, into comic books, or tech. You will find your tribe.
+                </p>   
+                <div class="interest">
+                    <span>Coding</span>
+                    <span>Video Games</span>
+                    <span>Comics</span>
+                    <span>Cosplay</span>
+                </div>
+            </div>
+            
+
+        </section>
+
+        <!-- Events -->
+
+        <section id="events">
+            <div class="container">
+                <div class="item-container">
+                    <div class="img-container">
+                        <img src="blerdcon.png">
+                    </div>
+
+                    <div class="body-container">
+                        <div class="overlay"></div>
+
+                        <div class="event-info">
+                            <p class="title">BlerdCon </p>
+                            <div class="separator"></div>
+                            <p class="info">Arlington, VA 22202</p>
+                            <p class="price">$0-$200</p>
+
+                            <div class="additonal-info">
+                                <p class="info">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    Hyatt Crystal City
+                                </p>
+                                <p class="info">
+                                    <i class="far fa-calendar-alt"></i>
+                                    Fri. Jul 8, 2022 at 12:00pm - Sun. Jul 10, 2022 at 4:00pm EDT
+                                </p>
+
+                                <p class="info description">
+                                    It's going to be the biggest and best year for Blerdcon! We've been gone too long, now it's time for HOMECOMIN'!! 3 days, round-the-clock activities! <span>more...</span>
+                                </p>
+                            </div>
+                        </div>
+                        <button class="action">Book it</button>
+                    </div>
+                </div> 
+
+                <div class="item-container">
+                    <div class="img-container">
+                        <img src="blkcode.png">
+                    </div>
+
+                    <div class="body-container">
+                        <div class="overlay"></div>
+
+                        <div class="event-info">
+                            <p class="title">Technology in Entertainment</p>
+                            <div class="separator"></div>
+                            <p class="info">Online event</p>
+                            <p class="price">Free</p>
+
+                            <div class="additonal-info">
+                                <p class="info">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    Zoom
+                                </p>
+                                <p class="info">
+                                    <i class="far fa-calendar-alt"></i>
+                                    Wed. March 30, 2022 6:00 PM – 8:00 PM CDT
+                                </p>
+
+                                <p class="info description">
+                                    BGC x DreamWorks are collaborating on an exploring technology in entertainment Event. <span>more...</span>
+                                </p>
+                            </div>
+                        </div>
+                        <button class="action">Book it</button>
+                    </div>
+                </div> 
+
+                <div class="item-container">
+                    <div class="img-container">
+                        <img src="gamenight.png">
+                    </div>
+
+                    <div class="body-container">
+                        <div class="overlay"></div>
+
+                        <div class="event-info">
+                            <p class="title">Community Game Night</p>
+                            <div class="separator"></div>
+                            <p class="info">Online event</p>
+                            <p class="price">Free</p>
+
+                            <div class="additonal-info">
+                                <p class="info">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    Discord
+                                </p>
+                                <p class="info">
+                                    <i class="far fa-calendar-alt"></i>
+                                    Sat. March 26, 2022 7:00 PM – 9:00 PM CDT
+                                </p>
+
+                                <p class="info description">
+                                    Community game night on our Discord. We will be playing Goose Goose Duck, free on steam. <span>more...</span>
+                                </p>
+                            </div>
+                        </div>
+                        <button class="action">Book it</button>
+                    </div>
+                </div>
+
+                <div class="item-container">
+                    <div class="img-container">
+                        <img src="kong.png">
+                    </div>
+
+                    <div class="body-container">
+                        <div class="overlay"></div>
+
+                        <div class="event-info">
+                            <p class="title">Community Movie Night</p>
+                            <div class="separator"></div>
+                            <p class="info">Online event</p>
+                            <p class="price">Free</p>
+
+                            <div class="additonal-info">
+                                <p class="info">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    Discord
+                                </p>
+                                <p class="info">
+                                    <i class="far fa-calendar-alt"></i>
+                                    Sat. April 2, 2022 7:00 PM – 9:00 PM CDT
+                                </p>
+
+                                <p class="info description">
+                                    Community Movie night on our Discord. We will be watching Black Panther. <span>more...</span>
+                                </p>
+                            </div>
+                        </div>
+                        <button class="action">Book it</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Contact Us -->
+        <section id="contact">
+            <form action="">
+                <div class="title">
+                    <h2>CONTACT US</h2>
+                </div>
+                <div class="half">
+                    <div class="item">
+                        <label for="name">NAME</label>
+                        <input type="text" id="name">
+                    </div>
+                    <div class="item">
+                        <label for="email">EMAIL</label>
+                        <input type="text" id="email">
+                    </div>
+                </div>
+                <div class="full">
+                    <label for="message">MESSAGE</label>
+                    <textarea name="" id="message"></textarea>
+                </div>
+                <div class="action">
+                    <input type="submit" value="SEND MESSAGE">
+                    <input type="reset" value="RESET">
+                    <div class="icons">
+                        <h3>FOLLOW US</h3>
+                        <a class="logo" href="#" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+                        <a class="logo" href="#" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a class="logo" href="#" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a class="logo" href="#" target="_blank"><ion-icon name="logo-discord"></ion-icon></a>
+                    
+                    </div>
+                </div>
+            </form>
+            
+                
+
+        </section>
+
+
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script>
+        function openSlideMenu(){
+            document.getElementById('side-menu').style.width = '250px';
+            document.getElementById('main').style.marginLeft = '250px';
+        }
+        function closeSlideMenu(){
+            document.getElementById('side-menu').style.width = '0';
+            document.getElementById('main').style.marginLeft = '0';
+        }
+    </script>
+
+    <footer>
+        <h6>Created by Christin Henderson 2022</h6>
+    </footer>
+
+</body>
+</html>
